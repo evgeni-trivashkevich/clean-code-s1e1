@@ -5,23 +5,23 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.more-inf-wrapper {
+.title-wrapper {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.more-inf-wrapper img {
+.title-img {
   width: 100%;
 }
 
-.more-inf-wrapper .more-inf {
+.title-info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .more-inf-wrapper { 
+  .title-wrapper { 
     text-align: center;
   }
 }
@@ -138,13 +138,13 @@ li > input[type="text"] {
   width: 226px;
 }
 
-.delete img {
+.delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete img:hover {
+.delete-img:hover {
   transform: rotateZ(0);
 }
 
